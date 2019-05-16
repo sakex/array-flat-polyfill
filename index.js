@@ -15,7 +15,7 @@
       for (var i = 0; i < length; ++i) {
         elem = this[i];
         if (depth >= 0 && Array.isArray(elem)) {
-          var nestedArray = elem.flat(--depth);
+          var nestedArray = elem.flat(depth - 1);
           for (var j = 0; j < nestedArray.length; ++j) {
             newArr.push(nestedArray[j]);
           }
