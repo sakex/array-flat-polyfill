@@ -1,5 +1,5 @@
 {
-  "name": "array-flat-polyfill",
+  "name": "flat-array-polyfill",
   "version": "1.0.0",
   "description": "A polyfill for the new JS Array method Array.prototype.flat",
   "main": "index.js",
